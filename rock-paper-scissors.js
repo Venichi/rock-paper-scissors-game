@@ -68,8 +68,8 @@ function playGame(playerMove) {
 
     document.querySelector('.js-moves')
     .innerHTML = 
-    `You <img class="image" src="Images/${playerMove}.webp">
-    <img class="image" src="Images/${computerMove}.webp"> Computer`;
+    `You <img class="image" src="${playerMove}.webp">
+    <img class="image" src="${computerMove}.webp"> Computer`;
     
 }
 
